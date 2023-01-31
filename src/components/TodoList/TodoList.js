@@ -3,7 +3,6 @@ import {Row, Col, Button, ButtonGroup } from 'react-bootstrap';
 import s from './TodoList.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave, faTrash, faEdit, faLock, faLockOpen } from '@fortawesome/free-solid-svg-icons'
-import TodoService from '../../API/TodoService';
 
 function TodoList({todo, setTodo}) {
 
